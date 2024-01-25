@@ -17,7 +17,7 @@ const Form = () => {
   return (
     <div>
         {regist && (<div>
-            <p>Registration Sucessful !!</p>
+            <p style={{fontSize:"30px"}}>Registration Sucessful !!</p>
         </div>)}
         <form action="" className='form' onSubmit={handleSubmit(onSubmit)}>
             <label>First Name:</label>
